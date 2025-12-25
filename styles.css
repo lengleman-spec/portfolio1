@@ -10,11 +10,28 @@ header {
   align-items: center;
   padding: 1rem;
   width: 100%;
+  position: relative;
+  z-index: 1000;
+}
+
+a {
+  text-decoration: none;
 }
 
 li {
   text-decoration: none;
   list-style-type: none;
+}
+
+nav {
+  position: relative;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
 }
 
 .nav-links {
@@ -23,24 +40,42 @@ li {
   gap: 10px;
   background: white;
   position: absolute;
-  top: 70px;
-  right: 20px;
+  top: 100%;
+  right: 0;
   padding: 15px;
   border-radius: 6px;
+  z-index: 100;
+}
+
+.menu-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 #menu-toggle {
   display: none;
 }
 
-#menu-toggle:checked ~ nav .nav-links {
+#menu-toggle:checked + label + nav .nav-links {
   display: flex;
 }
 
 .hamburger {
+  display: block;
   background: none;
   border: none;
   font-size: 1.8rem;
   cursor: pointer;
   margin-left: auto;
+  z-index: 101;
+}
+
+/*  ---------- HERO SECTION ---------- */
+.hero-section {
+  text-align: center;
+}
+
+.hero-img {
+  height: 300px;
 }
