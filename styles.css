@@ -9,6 +9,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  width: 100%;
 }
 
 li {
@@ -41,4 +42,5 @@ li {
   border: none;
   font-size: 1.8rem;
   cursor: pointer;
+  margin-left: auto;
 }
