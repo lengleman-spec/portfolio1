@@ -8,4 +8,37 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav-links {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  background: white;
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked ~ nav .nav-links {
+  display: flex;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
 }
