@@ -21,6 +21,7 @@ h1 {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 li {
@@ -108,11 +109,22 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border: 2px solid red;
+  gap: 2rem;
+  margin-left: 1rem;
 }
 
 .numbers {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.numbers p {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.numbers h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
 }
