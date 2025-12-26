@@ -185,11 +185,24 @@ nav {
   width: 300px;
   margin: 0 auto;
   border-radius: 10px;
-  border: 1px solid red;
+  border: 3px solid rgb(65, 65, 65);
+  overflow: hidden;
+}
+
+.card-header {
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.card-body {
+  padding: 1rem;
 }
 
 .bakery-img {
   height: 300px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
   border-radius: 10px;
 }
 
@@ -197,4 +210,14 @@ nav {
   text-align: center;
   display: block;
   margin: 0 auto;
+  font-size: 1.3rem;
+  padding: 0.8rem 2rem;
+  border: 3px solid rgb(65, 65, 65);
+  border-radius: 10px;
+  box-shadow: 4px 6px 3px 0;
+}
+
+.proj-description {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
