@@ -132,16 +132,31 @@ nav {
 
 .box-container {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
   margin: 1rem;
+  gap: 1rem;
 }
 
 .box {
   display: flex;
-  /* justify-content: space-around; */
+  justify-items: center;
   align-items: center;
-  border: 3px solid #263c4a;
+  border: 2px solid #263c4a;
+  border-radius: 10px;
   width: 100%;
+  max-width: 400px;
+  height: auto;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.box-header {
+  font-size: 1.5rem;
+}
+
+.box-subheader {
+  font-size: 1.1rem;
 }
 
 .box-text {
@@ -152,4 +167,5 @@ nav {
 
 .box-icon {
   padding: 1rem;
+  font-size: 1.75rem;
 }
