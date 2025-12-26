@@ -17,6 +17,7 @@ header {
 
 h1 {
   font-size: 2.25rem;
+  margin-top: 2rem;
 }
 
 a {
@@ -127,4 +128,28 @@ nav {
 .numbers h3 {
   font-size: 1.2rem;
   font-weight: 500;
+}
+
+.box-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem;
+}
+
+.box {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  border: 3px solid #263c4a;
+  width: 100%;
+}
+
+.box-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.box-icon {
+  padding: 1rem;
 }
