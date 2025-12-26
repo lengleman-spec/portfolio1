@@ -178,3 +178,23 @@ nav {
   padding: 1rem;
   font-size: 1.75rem;
 }
+
+/* PROJECTS SECTION */
+
+.card {
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid red;
+}
+
+.bakery-img {
+  height: 300px;
+  border-radius: 10px;
+}
+
+.project-btn {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
