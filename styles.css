@@ -245,8 +245,10 @@ nav {
 }
 
 .project-btn:hover {
-  animation: shake 0.8s;
-  animation-iteration-count: infinite;
+  background-color: #263c4a;
+  color: white;
+  /* animation: shake 0.8s;
+  animation-iteration-count: infinite; */
 }
 
 .proj-description {
