@@ -108,6 +108,11 @@ nav {
 }
 
 /*  ---------- WHAT DO I HELP SECTION ---------- */
+.skills {
+  background-color: #263c4a;
+  color: white;
+  padding-top: 3rem;
+}
 .skills-header {
   font-size: 1.8rem;
   margin: 0 0 1rem 1rem;
@@ -164,6 +169,8 @@ nav {
   overflow: hidden;
   padding: 1rem;
   box-shadow: 6px 6px 4px 0px;
+  background-color: white;
+  color: #263c4a;
 }
 
 .box:hover {
