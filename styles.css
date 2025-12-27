@@ -37,11 +37,16 @@ nav {
   position: relative;
 }
 
+.name {
+  color: white;
+}
+
 .logo-wrapper {
   display: flex;
   align-items: center;
   gap: 1rem;
   font-size: 2rem;
+  color: white;
 }
 
 .nav-links {
@@ -61,6 +66,7 @@ nav {
   position: relative;
   display: flex;
   align-items: center;
+  color: white;
 }
 
 #menu-toggle {
