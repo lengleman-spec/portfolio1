@@ -265,6 +265,8 @@ nav {
   margin-bottom: 1rem;
 }
 
+/* FOOTER */
+
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
