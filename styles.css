@@ -266,6 +266,12 @@ nav {
 }
 
 /* FOOTER */
+.footer-section {
+  background-color: #263c4a;
+  color: white;
+  padding: 1rem 0;
+}
+
 .footer {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -279,7 +285,8 @@ nav {
 }
 
 .footer h4 {
-  margin-bottom: 1rem;
+  margin: 1rem 0;
+  font-size: 1.25rem;
 }
 
 .left-links-container {
@@ -288,6 +295,14 @@ nav {
   align-items: center;
 }
 
+footer i {
+  font-size: 1.3rem;
+  padding: 3px;
+}
+
+footer a {
+  color: white;
+}
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
