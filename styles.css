@@ -266,6 +266,27 @@ nav {
 }
 
 /* FOOTER */
+.footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 2rem;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.footer h4 {
+  margin-bottom: 1rem;
+}
+
+.left-links-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 @keyframes shake {
   0% {
