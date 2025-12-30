@@ -360,15 +360,15 @@ footer a:hover {
     align-items: center;
     justify-content: space-between;
     text-align: left;
-    padding: 3rem 4rem; /* more breathing room */
-    gap: 2rem; /* space between text and image */
+    padding: 3rem 4rem;
+    gap: 2rem;
   }
 
-  /* Make heading bigger and more readable */
   .hero-section h1 {
-    font-size: 3rem; /* bigger heading */
+    font-size: 3rem;
     line-height: 1.2;
     margin-bottom: 1rem;
+    color: #263c4a;
   }
 
   .hero-img {
@@ -377,5 +377,10 @@ footer a:hover {
     max-width: 400px;
     height: auto;
     object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .hero-description {
+    color: #263c4a;
   }
 }
