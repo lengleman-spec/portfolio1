@@ -103,7 +103,6 @@ nav {
 /*  ---------- HERO SECTION ---------- */
 .hero-section {
   text-align: center;
-
   padding: 2rem 1rem;
   padding-bottom: 1rem;
 }
@@ -351,5 +350,32 @@ footer a:hover {
   }
   100% {
     transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+/* Media Queries */
+@media screen and (min-width: 645px) {
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding: 3rem 4rem; /* more breathing room */
+    gap: 2rem; /* space between text and image */
+  }
+
+  /* Make heading bigger and more readable */
+  .hero-section h1 {
+    font-size: 3rem; /* bigger heading */
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+
+  .hero-img {
+    content: url("profile2.jpg");
+    width: 40%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
   }
 }

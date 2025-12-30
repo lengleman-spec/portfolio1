@@ -39,13 +39,19 @@
 
     <!-- Hero Section -->
     <section class="hero-section">
-      <h1>Hey There, <br />I'm Liz</h1>
-      <p class="hero-description">
-        I design beautifully simple things, <br />
-        And I love what I do.
-      </p>
-
-      <img src="profile.jpg" alt="profile pic" class="hero-img" />
+      <div class="hero-text">
+        <h1>Hey There, <br />I'm Liz</h1>
+        <p class="hero-description">
+          I design beautifully simple things, <br />
+          And I love what I do.
+        </p>
+      </div>
+      <img
+        src="profile.jpg"
+        srcset="profile2.jpg 645w, profile.jpg 300w"
+        sizes="(min-width: 645px) 40vw, 100vw"
+        alt="profile pic"
+        class="hero-img" />
     </section>
 
     <!-- Skills Sectiion -->
@@ -186,12 +192,3 @@
     </section>
   </body>
 </html>
-
-<!-- Footer : 
- social media icons
- Learn (our story, mission, FAQs)
- Training schedule
- contact us
- terms of use
- privaacy policy
-  -->
