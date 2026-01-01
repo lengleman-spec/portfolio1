@@ -117,6 +117,7 @@ nav {
 
 .hero-description {
   font-size: 1.2rem;
+  margin: 1rem;
 }
 
 /*  ---------- WHAT DO I SECTION ---------- */
@@ -125,6 +126,7 @@ nav {
   color: white;
   padding-top: 3rem;
 }
+
 .skills-header {
   font-size: 1.8rem;
   margin: 0 0 1rem 1rem;
@@ -378,7 +380,7 @@ footer a:hover {
 
   .hero-img {
     content: url("profile2.jpg");
-    width: 40%;
+    width: 50%;
     max-width: 400px;
     height: auto;
     object-fit: cover;
@@ -387,5 +389,14 @@ footer a:hover {
 
   .hero-description {
     color: #263c4a;
+  }
+}
+
+@media screen and (min-width: 965px) {
+  .card-container {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
   }
 }
